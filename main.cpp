@@ -18,6 +18,13 @@ int main()
     else
     {
         cout << "min=" << a;
+    if( a > b )
+    {
+        cout << "max=" << a;
+    }
+    else
+    {
+        cout << "max=" << b;
     }
     return 0;
 }
